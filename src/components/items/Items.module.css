@@ -1,0 +1,73 @@
+/* .item-container{
+    margin: 0  auto;
+    width: 100%;
+    max-width: 70rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding-bottom: 1rem
+};
+
+.item-container ul{
+    padding: 0;
+    margin: 0;
+}
+
+.item-container li{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    width: 100%;
+    list-style: none;
+} */
+
+
+
+
+
+/*============================== code for ther map=========================== */
+.item-container{
+    margin: 0  auto;
+    width: 100%;
+    max-width: 70rem;
+    border: 1px solid red;
+    border-radius: 6px;
+    /* padding: 1rem; */
+    padding-bottom: 1rem
+};
+
+.item-container ul{
+    padding: 0;
+    margin: 0;
+}
+
+.item{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+/* .hidden-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+} */
+
+.hidden-content{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.hidden-content li{
+    list-style: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+}
