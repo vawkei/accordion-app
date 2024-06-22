@@ -4,7 +4,7 @@ import Items from "../items/Items";
 const Home = () => {
     return ( 
         <div className={classes.home}>
-            <h1>Home</h1>
+            <h1>Accordion App</h1>
             <Items />
         </div>
      );

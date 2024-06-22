@@ -49,8 +49,8 @@ const Items = () => {
         <li>Do people use Github only for code?</li> */}
         {Items.map((item) => {
           return (
-            <div>
-              <div key={item.id} className={classes.item}>
+            <div key={item.id}>
+              <div className={classes.item}>
                 <li>{item.text}</li>
                 <FaPlus
                   size={15}
